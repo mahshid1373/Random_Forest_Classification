@@ -23,7 +23,6 @@ This project focuses on training a Random Forest classifier on a dataset. The ke
 
 1. **Training the model:** We use the Random Forest algorithm to fit the model to the training data.
 2. **Evaluating the model:** Predictions are generated using the test set, and various metrics are calculated to assess the model's performance.
-3. **Feature Importance:** The notebook also highlights the most important features based on the trained model.
 
 
 ## Sample Data

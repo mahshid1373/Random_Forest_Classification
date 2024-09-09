@@ -65,12 +65,25 @@ Each tree image is limited to only showing the first few nodes. These trees can 
 ![Decission Tree](Fig/DT1.png)
 ![Decission Tree](Fig/DT2.png)
 
+**Hyperparameter Tuning:**
+- n_estimators: the number of decision trees in the forest. Increasing this hyperparameter generally improves the performance of the model but also increases the computational cost of training and predicting.
+- max_depth: the maximum depth of each decision tree in the forest. Setting a higher value for max_depth can lead to overfitting while setting it too low can lead to underfitting.
+
+![Random Forest](Fig/RF.png)
+
+This plots what the model predicted against what the correct prediction was. We can use this to understand the tradeoff between false positives and false negatives.
+![Random Forest](Fig/confussion_matrix.png)
+
 ## Model Evaluation
 The model's performance is evaluated using the following metrics:
 
 - **Accuracy:** The overall correctness of the model.
 - **Precision:** The ability of the classifier to not label a negative sample as positive.
 - **Recall:** The ability of the classifier to find all the positive samples.
+
+Accuracy: 0.9026871613402632
+Precision: 0.7362637362637363
+Recall: 0.25475285171102663
 
 ## Feature Importance
 You can understand which features contribute the most to the predictions made by the Random Forest model with this code:

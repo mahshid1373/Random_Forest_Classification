@@ -82,7 +82,9 @@ The model's performance is evaluated using the following metrics:
 - **Recall:** The ability of the classifier to find all the positive samples.
 
 Accuracy: 0.9026871613402632
+
 Precision: 0.7362637362637363
+
 Recall: 0.25475285171102663
 
 ## Feature Importance

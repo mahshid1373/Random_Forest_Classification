@@ -42,13 +42,17 @@ This table displays key features such as age, job, marital status, education lev
 
 ## Usage
 This is the Distribution of Target:
+
 ![Distribution of Dataset Target](Fig/Distribution_target.png)
+
 So 88.3% of target value has the value of NO and other are Yes
 
 and here is the Distribution of all features:
+
 ![Distribution of Dataset Features](Fig/dist_features.png)
 
 and here is the correlation matrix of the features:
+
 ![Correlation Matrixs](Fig/corr.png)
 
 

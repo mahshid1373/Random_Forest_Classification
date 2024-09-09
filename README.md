@@ -62,6 +62,8 @@ Each tree image is limited to only showing the first few nodes. These trees can 
 - The % of total samples in each split
 - The % split between classes in each split
 ![Decission Tree](Fig/DT.png)
+![Decission Tree](Fig/DT1.png)
+![Decission Tree](Fig/DT2.png)
 
 ## Model Evaluation
 The model's performance is evaluated using the following metrics:
